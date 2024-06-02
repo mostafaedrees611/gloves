@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.background::before{
+    content: '';
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.logo{
+    position: relative;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.logoo img{
+    width: 74%;
+    height: 100%;
+   padding-left: 40px;
+   padding-top: 20px;
+}
+p{
+    padding-right: 900px;
+    font-size: 60px;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(191, 191, 253);
+    font-weight: bold;
+}
+.center{
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(191, 191, 253);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 7%;
+}
+.buttonn button{
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-left: 350px;
+border: hidden;
+border-radius: 30px;
+font-size: 20px;
+font-weight: bold;
+transition: 0.5s;
+background-color:rgb(138, 138, 255);
+}
+.buttonn button:hover{
+    color: rgb(191, 191, 253);
+    background-color: rgb(79, 79, 233);
+}
+.buttonnn button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   margin-right: 300px;
+    border: hidden;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid;
+    border-color:rgb(52, 52, 236);
+    cursor: pointer;
+    background: transparent;
+    color: rgb(191, 191, 253);
+    transition: 0.5s;
+}
+.buttonnn button:hover{
+    color: wheat;
+    background-color: rgb(79, 79, 233);
+    
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.header::before{
+    content: '';
+    background-image: url(background2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+position: relative;
+}
+
+.textt a {
+    padding-right: 400px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(191, 191, 253);
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 100px;
+}
+.fott img{
+    width: 190%;
+    height: 100%;
+   padding-left: 40px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color:rgb(191, 191, 253);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    transition: 0.5s;
+}
+.nav-links li a:hover{
+    color: rgb(79, 79, 233);
+}
+header{
+    padding: 20px 0;
+    
+}
+.phone{
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+
+
+}
+.phoneee img{
+    margin-left: 60%;
+    
+    
+}
+.phonee h1{
+  color: rgb(191, 191, 253);
+  margin-left: 20%;
+  font-size: 49px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.phonee button{
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20%;
+    margin-left: 30%;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    transition: 0.5s;
+    background-color:rgb(138, 138, 255);
+}
+.phonee button:hover{
+    color: rgb(191, 191, 253);
+    background-color: rgb(79, 79, 233);
+}
+
+.flex{
+    position: relative;
+    display: flex;
+    padding-top: 10%;
+    flex-direction: row;
+justify-content: space-around;
+
+}
+.tex h1{
+    margin-left: 10%;
+    font-size: 70px;
+    color: rgb(191, 191, 253);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex1 img{
+
+margin-left: 250px;
+padding-bottom: 10px;
+border-radius: 20px;
+}
+.flexx{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.loggo img{
+    width: 75%;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.pra p{
+    margin-right: 60px;
+}
+.vedio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.vedioo h1{
+font-size: 45px;
+margin-top: 30%;
+margin-left: 40px;
+color: rgb(191, 191, 253);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.vedioo button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20%;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    margin-top: 40px;
+    transition: 0.5s;
+    background-color:rgb(138, 138, 255);
+    font-size: large;
+    }
+
+.vedioo button:hover{
+color: rgb(191, 191, 253);
+background-color: rgb(79, 79, 233);
+}
+.vediooo img{
+    margin-left: 40%;
+ border-radius: 25px;
+    width: 27%;
+    margin-top: 12%;
+    
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div h1{
+font-size: 60px;
+margin-top: 20px;
+margin-left: 40px;
+color: rgb(191, 191, 253);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.video-img img {
+    margin-left: 40%;
+    border-radius: 25px;
+    width: 27%;
+    margin-top: 12%;
+}
+
+.youtube {
+    text-align: center;
+}
+
+.youtube video{
+    padding-top: 10px;
+    border-radius: 18px; 
+    /* overflow: hidden;  */
+    /* -webkit-transform: translateZ(0); */
+    /* box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07); */
+}
